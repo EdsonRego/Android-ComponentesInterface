@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AulaComponentesInterface">
         <activity
+            android:name=".SegundaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:screenOrientation="unspecified"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
