@@ -1,7 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.AulaComponentesInterface" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    <!-- Base application theme (Night Mode). -->
+    <style name="Base.Theme.AulaComponentesInterface"
+        parent="Theme.Material3.DayNight">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/purple_500_night</item>
+        <item name="colorPrimaryContainer">@color/purple_700_night</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/teal_200_night</item>
+        <item name="colorSecondaryContainer">@color/teal_700_night</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/black</item>
+
     </style>
+
 </resources>

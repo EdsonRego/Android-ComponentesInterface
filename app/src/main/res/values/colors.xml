@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Primary brand color -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- Secondary brand color -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Black and white -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
     <!-- Cores customizadas-->
     <color name="texto_botao">#FFEB3B</color>
 
+    <!-- Paleta inspirada no app Bradesco -->
+
+    <!-- Cor principal -->
+    <color name="primaria">#CC092F</color>
+
+    <!-- Variação mais escura -->
+    <color name="primaria_variacao">#A30726</color>
+
+    <!-- Texto/ícones sobre cor principal -->
+    <color name="item_primaria">#FFFFFF</color>
+
+    <!-- Cor secundária -->
+    <color name="secundaria">#E53935</color>
+
+    <!-- Texto/ícones sobre cor secundária -->
+    <color name="item_secundaria">#FFFFFF</color>
+
+    <!-- Fundo geral -->
+    <color name="fundo">#F5F5F5</color>
+
+    <!-- Cores para Theme Night -->
+
+    <!-- Primary brand color (dark mode) -->
+    <color name="purple_200_night">#CF6679</color>
+    <color name="purple_500_night">#B00020</color>
+    <color name="purple_700_night">#7F0000</color>
+
+    <!-- Secondary brand color (dark mode) -->
+    <color name="teal_200_night">#66FFF9</color>
+    <color name="teal_700_night">#03DAC5</color>
 
 </resources>
