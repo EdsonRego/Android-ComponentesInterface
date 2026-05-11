@@ -12,12 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AulaComponentesInterface">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".SegundaActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="unspecified"
-            android:exported="true">
+            android:name=".ScrowViewActivity"
+            android:exported="true"
+            android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
