@@ -10,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 public class CaixaActivity extends AppCompatActivity {
 
     @Override
@@ -24,11 +26,12 @@ public class CaixaActivity extends AppCompatActivity {
         });
 
         Button botao = findViewById( R.id.botao_salvar );
-        botao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                System.out.println("Botão foi clicado");
+        TextInputEditText email = findViewById(R.id.edit_email);
+
+        botao.setOnClickListener(v -> {
+            String emailUsuario = email.getText().toString();
+            System.out.println("Email selecionado: " + emailUsuario);
             }
-        });
+        );
     }
 }
